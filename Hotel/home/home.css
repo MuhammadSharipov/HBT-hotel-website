@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+h1,h2,h3 {
+    padding-bottom: 20px;
+}
+p {
+    margin: 10px 0;
+}
+#navbar {
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a {
+    color: #fff;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    padding: 25px;
+    display: inline-block;
+}
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+    background-color: #444;
+    color:#f7c08a;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+.text-primary {
+    color: #f7c08a;
+}
+.lead {
+    font-size: 20px;
+}
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+    padding: 13px 20px;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover {
+    background-color: #f7c08a;
+    color: #333;
+}
+.btn-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+}
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+.bg-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+.bg-primary {
+    background-color: #f7c08a;
+    color: #333;
+}
+.clr {
+    clear: both;
+}
+#showcase {
+    background-image: url("images/yotoq.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.opacity {
+    background-color: rgba(0, 0, 0, .6);
+    height: 100%;
+}
+#showcase-content {
+    text-align: center;
+    color: #fff;
+    padding-top: 170px;
+}
+#showcase h1 {
+    font-size: 60px;
+
+}
+#showcase p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+#home-info {
+    height: 400px;
+}
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url("images/pic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 100px 40px;
+    text-align: center;
+    font-size: 15px;
+}
+#home-info .info-content p {
+    margin-bottom: 30px;
+}
+.box {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 50px;
+}
+.box i {
+    margin-bottom: 10px;
+}
+#main-footer {
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+}
