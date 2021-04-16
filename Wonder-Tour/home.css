@@ -1,0 +1,303 @@
+body {
+    margin: 0;
+}
+.clr {
+    clear: both;
+}
+#navbar {
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a {
+    color: #fff;
+}
+#navbar ul {
+    float: left;
+    list-style: none;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    padding: 25px;
+    display: inline-block;
+}
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+    background-color: #444;
+    border-top: 3px solid cornflowerblue;
+}
+#navbar .container {
+    max-width: 1100px;
+    margin: auto;
+}
+#navbar .messanger {
+    float: right;
+    padding-top: 20px;
+}
+#navbar .messanger a {
+    padding: 15px;
+    font-size: 20px;
+}
+@media (max-width:700px) {
+    #navbar .messanger {
+        display: none;
+    }
+}
+#carusel-one {
+    background-image: url("../images/slider-4-slide-1-1920x678.jpg");
+    display: flex;
+    justify-content: center;    
+}
+#text-info {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#text-info button {
+    width: 20% !important;
+    height: 60px !important;
+    font-size: 25px;
+}
+#text-info h1 {
+    font-size: 60px !important;
+    color: #fff;
+}
+#text-info h3 {
+    color: #fff;
+    font-size: 25px;
+}
+.about-travel {
+    background-color: #f4f4f4;
+}
+.about-travel img {
+    position: absolute;
+
+}
+.about-travel img:hover {
+    transition: 1s, 1s;
+    height: 420px;
+    width: 350px;
+}
+.about-travel .card p {
+    position: relative;
+    color: #fff;
+    margin-top: 90%;
+    text-align: center;
+}
+.about-travel .card {
+    background-color: #f4f4f4;
+    border: none;
+}
+.discover-new .text-h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+.discover-new .text-span p {
+    color: #888888;
+    
+}
+.discover-new img:hover {
+    transition: 1s,1s;
+    height: 350px;
+    width: 98%;
+}
+.discover-new .text-span span {
+    border-bottom: 3px solid #8888;
+    margin-right: -4px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.discover-new .button-one {
+    background-color: #01b3a7;
+    color: #fff;
+    padding: 23px 30px;
+    font-size: 19px;
+}
+.discover-new .button-one:hover {
+    padding: 23px 30px;
+    font-size: 17px;
+    color: #000;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+.discover-new .button-two {
+    padding: 20px 30px;
+    font-size: 20px;
+    color: #000;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+.discover-new .button-two:hover {
+    background-color: #01b3a7;
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 20px;
+    border: none;
+}
+.our-services i {
+    font-size: 25px;
+    color: #01b3a7;
+    margin-right: 10px;
+}
+.our-services h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.our-services .card {
+    display: flex;
+    flex-direction: row;
+    width: 98% !important;
+    height: 98% !important;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid #dbdbdb;
+}
+.our-services .card:hover {
+    border: none;
+    box-shadow: 1px 2px 3px 3px #888888;
+    cursor: pointer;
+    transition: 0.5s, 0.5s;
+}
+.our-services .card p {
+    color: #bebebe;
+}
+.our-text {
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+}
+.hot-text {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 30px 0;
+}
+.hot-tours h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+.hot-tours .card button {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #000;
+    border: 2px solid #000;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.hot-tours .card button:hover {
+    background-color: #01b3a7;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid #01b3a7;
+}
+.hot-tours .card .ss790 img{
+    transform: translate(457px, -293px);
+}
+.hot-tours .card img {
+    height: 100%;
+}
+.different-people-text {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.different-people img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.different-people img:hover {
+    border: 2px solid #01b3a7;
+    padding:  -20px;
+}
+.different-people .card {
+    border: none;
+    text-align: center;
+    background-color: #e9e9e9;
+    margin-bottom: 50px;
+}
+.different-people h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.different-people span {
+    margin-bottom: 12px;
+    color: #01b3a7;
+}
+.different-people .number {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.first-class {
+    width: 100%;
+    background-image: url("../images/parallax-1-1920x850.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.first-class-text {
+    width: 50%;
+    margin: 0 auto;
+}
+.first-class h1 {
+    font-size: 50px;
+}
+.first-class-text button {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top: 50px;
+}
+.first-class-text button:hover {
+    background-color: #01b3a7;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid #01b3a7;
+    transition: 1s, 1s;
+}
+footer {
+    background-color: rgb(12, 17, 42);
+    height: 350px;
+}
+#icon-phone {
+    color: #01b3a7;
+}
+.text-foundection {
+    color: #01b3a7;
+}
+#green-li {
+    color: #01b3a7;
+}
+.button-form {
+    font-size: 20px;
+    padding: 20px 30px;
+    background-color:  #01b3a7;
+    margin-top: 20px;
+}
+.button-form:hover {
+    background-color: seagreen;
+    transition: 1s, 1s;
+}
+.footer-inside {
+    background-color: rgb(22, 26, 46);
+
+}
